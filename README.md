@@ -1,6 +1,11 @@
-"# clinica-spring-mongoDB" 
-"# clinicacitas-spring-mongoDB" 
-"# appCitas-spring-mongoDB" 
-"# appCitas-spring-mongoDB" 
-"# appCitas-spring-mongoDB" 
-"# appCitas-spring-reactivo-mongoDB" 
+## App citas Spring Reactivo MongoDB
+
+Realizado por: 
+
+Alejandra Martinez
+Veronica Pava 
+
+
+https://appscitasmedicas.herokuapp.com/citasReactivas
+https://appscitasmedicas.herokuapp.com/pacientes
+
