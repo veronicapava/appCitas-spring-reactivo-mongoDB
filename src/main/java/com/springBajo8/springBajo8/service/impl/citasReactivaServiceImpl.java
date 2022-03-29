@@ -1,8 +1,5 @@
 package com.springBajo8.springBajo8.service.impl;
 
-//import com.yoandypv.reactivestack.messages.domain.Message;
-//import com.yoandypv.reactivestack.messages.repository.MessageRepository;
-//import com.yoandypv.reactivestack.messages.service.MessageService;
 import com.springBajo8.springBajo8.domain.citasDTOReactiva;
 import com.springBajo8.springBajo8.domain.pacienteDTOReactiva;
 import com.springBajo8.springBajo8.repository.IcitasReactivaRepository;
@@ -71,12 +68,10 @@ public class citasReactivaServiceImpl implements IcitasReactivaService {
 
 
     //Obtener todos los pacientes
-
     @Override
     public Flux<pacienteDTOReactiva> findAllPacientes() {
         return this.pacientesReactivosRepository.findAll();
     }
-
 
     //Obtener padecimientos con pacientes
     @Override
@@ -100,7 +95,7 @@ public class citasReactivaServiceImpl implements IcitasReactivaService {
         return this.IcitasReactivaRepository.findByFechaReservaCita(fechaReservaCita);
     }
 
-    //Obtener medico
+    //Obtener medico por nombre
     @Override
     public Mono<citasDTOReactiva> findDoctor(String nombreMedico) {
         return this.IcitasReactivaRepository.findByNombreMedico(nombreMedico);
